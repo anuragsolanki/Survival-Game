@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7501DFCC177C56AC00DF5C10 /* SenTestingKitAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 7501DFCB177C56AC00DF5C10 /* SenTestingKitAsync.m */; };
+		75EDAF79177C211800964D8F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75EDAF76177C211800964D8F /* SVProgressHUD.bundle */; };
+		75EDAF7A177C211800964D8F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EDAF78177C211800964D8F /* SVProgressHUD.m */; };
+		75EDAF7D177C228A00964D8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EDAF7B177C227C00964D8F /* QuartzCore.framework */; };
+		75F9904B177C0DBB000B37D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F9904A177C0DBB000B37D9 /* UIKit.framework */; };
+		75F9904D177C0DBB000B37D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F9904C177C0DBB000B37D9 /* Foundation.framework */; };
+		75F9904F177C0DBB000B37D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F9904E177C0DBB000B37D9 /* CoreGraphics.framework */; };
+		75F99055177C0DBB000B37D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75F99053177C0DBB000B37D9 /* InfoPlist.strings */; };
+		75F99057177C0DBB000B37D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F99056177C0DBB000B37D9 /* main.m */; };
+		75F9905B177C0DBB000B37D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F9905A177C0DBB000B37D9 /* AppDelegate.m */; };
+		75F9905D177C0DBB000B37D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F9905C177C0DBB000B37D9 /* Default.png */; };
+		75F9905F177C0DBB000B37D9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F9905E177C0DBB000B37D9 /* Default@2x.png */; };
+		75F99061177C0DBB000B37D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F99060177C0DBB000B37D9 /* Default-568h@2x.png */; };
+		75F99064177C0DBB000B37D9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F99062177C0DBB000B37D9 /* MainStoryboard.storyboard */; };
+		75F99067177C0DBB000B37D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F99066177C0DBB000B37D9 /* ViewController.m */; };
+		75F9906F177C0DBB000B37D9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F9906E177C0DBB000B37D9 /* SenTestingKit.framework */; };
+		75F99070177C0DBB000B37D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F9904A177C0DBB000B37D9 /* UIKit.framework */; };
+		75F99071177C0DBB000B37D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F9904C177C0DBB000B37D9 /* Foundation.framework */; };
+		75F99079177C0DBB000B37D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75F99077177C0DBB000B37D9 /* InfoPlist.strings */; };
+		75F9907C177C0DBC000B37D9 /* SurvivalGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F9907B177C0DBC000B37D9 /* SurvivalGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75F99072177C0DBB000B37D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F9903F177C0DBB000B37D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F99046177C0DBB000B37D9;
+			remoteInfo = SurvivalGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7501DFCA177C56AC00DF5C10 /* SenTestingKitAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenTestingKitAsync.h; sourceTree = "<group>"; };
+		7501DFCB177C56AC00DF5C10 /* SenTestingKitAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestingKitAsync.m; sourceTree = "<group>"; };
+		75EDAF76177C211800964D8F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		75EDAF77177C211800964D8F /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		75EDAF78177C211800964D8F /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		75EDAF7B177C227C00964D8F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75F99047177C0DBB000B37D9 /* SurvivalGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurvivalGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F9904A177C0DBB000B37D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75F9904C177C0DBB000B37D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75F9904E177C0DBB000B37D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75F99052177C0DBB000B37D9 /* SurvivalGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SurvivalGame-Info.plist"; sourceTree = "<group>"; };
+		75F99054177C0DBB000B37D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75F99056177C0DBB000B37D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75F99058177C0DBB000B37D9 /* SurvivalGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SurvivalGame-Prefix.pch"; sourceTree = "<group>"; };
+		75F99059177C0DBB000B37D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75F9905A177C0DBB000B37D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75F9905C177C0DBB000B37D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		75F9905E177C0DBB000B37D9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		75F99060177C0DBB000B37D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		75F99063177C0DBB000B37D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		75F99065177C0DBB000B37D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75F99066177C0DBB000B37D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75F9906D177C0DBB000B37D9 /* SurvivalGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurvivalGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F9906E177C0DBB000B37D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		75F99076177C0DBB000B37D9 /* SurvivalGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SurvivalGameTests-Info.plist"; sourceTree = "<group>"; };
+		75F99078177C0DBB000B37D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75F9907A177C0DBB000B37D9 /* SurvivalGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurvivalGameTests.h; sourceTree = "<group>"; };
+		75F9907B177C0DBC000B37D9 /* SurvivalGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurvivalGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F99044177C0DBB000B37D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDAF7D177C228A00964D8F /* QuartzCore.framework in Frameworks */,
+				75F9904B177C0DBB000B37D9 /* UIKit.framework in Frameworks */,
+				75F9904D177C0DBB000B37D9 /* Foundation.framework in Frameworks */,
+				75F9904F177C0DBB000B37D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F99069177C0DBB000B37D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F9906F177C0DBB000B37D9 /* SenTestingKit.framework in Frameworks */,
+				75F99070177C0DBB000B37D9 /* UIKit.framework in Frameworks */,
+				75F99071177C0DBB000B37D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75EDAF74177C211800964D8F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				75EDAF75177C211800964D8F /* SVProgressHUD */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		75EDAF75177C211800964D8F /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				75EDAF76177C211800964D8F /* SVProgressHUD.bundle */,
+				75EDAF77177C211800964D8F /* SVProgressHUD.h */,
+				75EDAF78177C211800964D8F /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		75F9903E177C0DBB000B37D9 = {
+			isa = PBXGroup;
+			children = (
+				75F99050177C0DBB000B37D9 /* SurvivalGame */,
+				75F99074177C0DBB000B37D9 /* SurvivalGameTests */,
+				75F99049177C0DBB000B37D9 /* Frameworks */,
+				75F99048177C0DBB000B37D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75F99048177C0DBB000B37D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F99047177C0DBB000B37D9 /* SurvivalGame.app */,
+				75F9906D177C0DBB000B37D9 /* SurvivalGameTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75F99049177C0DBB000B37D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75EDAF7B177C227C00964D8F /* QuartzCore.framework */,
+				75F9904A177C0DBB000B37D9 /* UIKit.framework */,
+				75F9904C177C0DBB000B37D9 /* Foundation.framework */,
+				75F9904E177C0DBB000B37D9 /* CoreGraphics.framework */,
+				75F9906E177C0DBB000B37D9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75F99050177C0DBB000B37D9 /* SurvivalGame */ = {
+			isa = PBXGroup;
+			children = (
+				75EDAF74177C211800964D8F /* Vendor */,
+				75F99059177C0DBB000B37D9 /* AppDelegate.h */,
+				75F9905A177C0DBB000B37D9 /* AppDelegate.m */,
+				75F99062177C0DBB000B37D9 /* MainStoryboard.storyboard */,
+				75F99065177C0DBB000B37D9 /* ViewController.h */,
+				75F99066177C0DBB000B37D9 /* ViewController.m */,
+				75F99051177C0DBB000B37D9 /* Supporting Files */,
+			);
+			path = SurvivalGame;
+			sourceTree = "<group>";
+		};
+		75F99051177C0DBB000B37D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75F99052177C0DBB000B37D9 /* SurvivalGame-Info.plist */,
+				75F99053177C0DBB000B37D9 /* InfoPlist.strings */,
+				75F99056177C0DBB000B37D9 /* main.m */,
+				75F99058177C0DBB000B37D9 /* SurvivalGame-Prefix.pch */,
+				75F9905C177C0DBB000B37D9 /* Default.png */,
+				75F9905E177C0DBB000B37D9 /* Default@2x.png */,
+				75F99060177C0DBB000B37D9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75F99074177C0DBB000B37D9 /* SurvivalGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				75F9907A177C0DBB000B37D9 /* SurvivalGameTests.h */,
+				75F9907B177C0DBC000B37D9 /* SurvivalGameTests.m */,
+				7501DFCA177C56AC00DF5C10 /* SenTestingKitAsync.h */,
+				7501DFCB177C56AC00DF5C10 /* SenTestingKitAsync.m */,
+				75F99075177C0DBB000B37D9 /* Supporting Files */,
+			);
+			path = SurvivalGameTests;
+			sourceTree = "<group>";
+		};
+		75F99075177C0DBB000B37D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75F99076177C0DBB000B37D9 /* SurvivalGameTests-Info.plist */,
+				75F99077177C0DBB000B37D9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75F99046177C0DBB000B37D9 /* SurvivalGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F9907F177C0DBC000B37D9 /* Build configuration list for PBXNativeTarget "SurvivalGame" */;
+			buildPhases = (
+				75F99043177C0DBB000B37D9 /* Sources */,
+				75F99044177C0DBB000B37D9 /* Frameworks */,
+				75F99045177C0DBB000B37D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurvivalGame;
+			productName = SurvivalGame;
+			productReference = 75F99047177C0DBB000B37D9 /* SurvivalGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75F9906C177C0DBB000B37D9 /* SurvivalGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F99082177C0DBC000B37D9 /* Build configuration list for PBXNativeTarget "SurvivalGameTests" */;
+			buildPhases = (
+				75F99068177C0DBB000B37D9 /* Sources */,
+				75F99069177C0DBB000B37D9 /* Frameworks */,
+				75F9906A177C0DBB000B37D9 /* Resources */,
+				75F9906B177C0DBB000B37D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F99073177C0DBB000B37D9 /* PBXTargetDependency */,
+			);
+			name = SurvivalGameTests;
+			productName = SurvivalGameTests;
+			productReference = 75F9906D177C0DBB000B37D9 /* SurvivalGameTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75F9903F177C0DBB000B37D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Anurag Solanki";
+			};
+			buildConfigurationList = 75F99042177C0DBB000B37D9 /* Build configuration list for PBXProject "SurvivalGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75F9903E177C0DBB000B37D9;
+			productRefGroup = 75F99048177C0DBB000B37D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75F99046177C0DBB000B37D9 /* SurvivalGame */,
+				75F9906C177C0DBB000B37D9 /* SurvivalGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75F99045177C0DBB000B37D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F99055177C0DBB000B37D9 /* InfoPlist.strings in Resources */,
+				75F9905D177C0DBB000B37D9 /* Default.png in Resources */,
+				75F9905F177C0DBB000B37D9 /* Default@2x.png in Resources */,
+				75F99061177C0DBB000B37D9 /* Default-568h@2x.png in Resources */,
+				75F99064177C0DBB000B37D9 /* MainStoryboard.storyboard in Resources */,
+				75EDAF79177C211800964D8F /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F9906A177C0DBB000B37D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F99079177C0DBB000B37D9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75F9906B177C0DBB000B37D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75F99043177C0DBB000B37D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F99057177C0DBB000B37D9 /* main.m in Sources */,
+				75F9905B177C0DBB000B37D9 /* AppDelegate.m in Sources */,
+				75F99067177C0DBB000B37D9 /* ViewController.m in Sources */,
+				75EDAF7A177C211800964D8F /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F99068177C0DBB000B37D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F9907C177C0DBC000B37D9 /* SurvivalGameTests.m in Sources */,
+				7501DFCC177C56AC00DF5C10 /* SenTestingKitAsync.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75F99073177C0DBB000B37D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F99046177C0DBB000B37D9 /* SurvivalGame */;
+			targetProxy = 75F99072177C0DBB000B37D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75F99053177C0DBB000B37D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F99054177C0DBB000B37D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75F99062177C0DBB000B37D9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F99063177C0DBB000B37D9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		75F99077177C0DBB000B37D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F99078177C0DBB000B37D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75F9907D177C0DBC000B37D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		75F9907E177C0DBC000B37D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75F99080177C0DBC000B37D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurvivalGame/SurvivalGame-Prefix.pch";
+				INFOPLIST_FILE = "SurvivalGame/SurvivalGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75F99081177C0DBC000B37D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurvivalGame/SurvivalGame-Prefix.pch";
+				INFOPLIST_FILE = "SurvivalGame/SurvivalGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75F99083177C0DBC000B37D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SurvivalGame.app/SurvivalGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurvivalGame/SurvivalGame-Prefix.pch";
+				INFOPLIST_FILE = "SurvivalGameTests/SurvivalGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		75F99084177C0DBC000B37D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SurvivalGame.app/SurvivalGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurvivalGame/SurvivalGame-Prefix.pch";
+				INFOPLIST_FILE = "SurvivalGameTests/SurvivalGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75F99042177C0DBB000B37D9 /* Build configuration list for PBXProject "SurvivalGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F9907D177C0DBC000B37D9 /* Debug */,
+				75F9907E177C0DBC000B37D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F9907F177C0DBC000B37D9 /* Build configuration list for PBXNativeTarget "SurvivalGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F99080177C0DBC000B37D9 /* Debug */,
+				75F99081177C0DBC000B37D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F99082177C0DBC000B37D9 /* Build configuration list for PBXNativeTarget "SurvivalGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F99083177C0DBC000B37D9 /* Debug */,
+				75F99084177C0DBC000B37D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75F9903F177C0DBB000B37D9 /* Project object */;
+}
